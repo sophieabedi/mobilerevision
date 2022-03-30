@@ -1,0 +1,135 @@
+
+
+html{
+  background-image: url(https://slm-assets.secondlife.com/assets/16809496/original/gif_Decent_Starry_Night_Sky_4x4.gif?1491222283);
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+
+}
+
+body {
+  font-family: 'Press Start 2P';
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-align: left;
+
+  padding-right: 100px;
+
+  padding-left: 80px;
+
+}
+.imgs4 img{
+  width: 50%;
+  object-fit: contain;
+  border: 5px solid white;
+}
+.image img{
+  width: 700%;
+  border: 5px solid white;
+  object-fit: contain;
+  flex-basis: 40%;
+}
+.imgs img{
+  width: 70%;
+  object-fit: contain;
+  align-self: flex-start;
+  border: 5px solid white;
+}
+.imgs2 img{
+  object-fit: contain;
+  border: 5px solid white;
+}
+.text{
+  font-size: 20px;
+  padding-left: 10px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+  width: 50%;
+}
+.title {
+  color: black;
+  background-color: #BF5FF3;
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 80px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  border-radius: 0 3px 3px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top: 35px;
+  background-color: #1B21C3;
+}
+
+#truman {
+  top: 80px;
+  background-color: #811BC3;
+}
+
+#bander {
+  top: 140px;
+  background-color: #00DD5D;
+}
+
+#freeguy {
+  top: 200px;
+  background-color: #E00ADA;
+}
+
+@media screen and (max-width: 1000px){
+  .image img {
+    width: 100%;
+  }
+
+  p {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .container {
+    display: inline;
+  }
+  
+  .title {
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+  }
+}
